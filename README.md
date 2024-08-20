@@ -32,7 +32,7 @@ is widely used for applications requiring dependable communication.
 
 ### TCP Server:
 
-1. Run the `server_java_tcp.java` file.
+1. Run the following command `java server_java_tcp.java` file.
 2. The TCP server will start listening for client connections on the specified port.
 3. Anonymize a given keyword in a received string.
 4. Count the occurrences of the keyword.
@@ -46,7 +46,7 @@ is widely used for applications requiring dependable communication.
 
 ## TCP Client:
 
-1. Run the `client_java_tcp.java` file.
+1. Run the following command `java client_java_tcp.java` file.
 2. Connect to the specified server and port using TCP.
 3. Send a string and keyword to the server.
 4. Receive the modified string.
@@ -86,7 +86,7 @@ arrives in order and reliably.
 ## Usage
 
 1. **Server:**
-    - Run the `server_java_udp.java` file.
+    - Run the following command `java server_java_udp.java` file.
     - The server will start listening for incoming UDP datagrams on the specified port.
 
 ## Core Elements
@@ -100,7 +100,7 @@ arrives in order and reliably.
 
     
 2. **Client:**
-    - Run the `client_java_udp.java` file.
+    - Run the following command `java client_java_udp.java` file.
     - The client will establish a connection with the server using UDP datagrams.
     - Input a string and a keyword for processing.
     - Receive the modified string and observe the repeated sentence based on the keyword count.
